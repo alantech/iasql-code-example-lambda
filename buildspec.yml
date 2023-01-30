@@ -4,7 +4,7 @@ phases:
     runtime-versions:
       nodejs: 16
     commands:
-      - aws cloudformation package --template-file template.yaml --s3-bucket aws-codedeploy-lambda-test-bucket --output-template-file outputTemplate.yaml
+      - aws cloudformation package --template-file template.yaml --s3-bucket ${TEST_LAMBDA_BUCKET_NAME} --output-template-file outputTemplate.yaml
 
 artifacts:
   type: zip
