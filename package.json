@@ -1,9 +1,0 @@
-{
-  "name": "iasql-code-example-lambda",
-  "version": "1.0.0",
-  "description": "",
-  "main": "handler.js",
-  "keywords": [],
-  "author": "Yolanda Robla",
-  "license": "GPL"
-}
