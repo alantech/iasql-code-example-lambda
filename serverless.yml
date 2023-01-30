@@ -1,0 +1,10 @@
+service: IaSQL testing lambda
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  test:
+    handler: handler.test
